@@ -3216,8 +3216,8 @@ SparkLevelPatchEntry,(1,1,0,MatchAll),/Game/PatchDLC/Raid1/Gear/Anointed/Generic
 # On Grenade Throw - Reduce Damage to 15% from 25%.
 SparkLevelPatchEntry,(1,2,0,MatchAll),/Game/PatchDLC/Raid1/Gear/Anointed/DataTable_Raid1_EndGame.DataTable_Raid1_EndGame,GrenadeThrow_GlobalDamage,Damage_7_39142BF947B2CBE02701DBA97A4D507F,0,,0.15
 
-# Consecutive Hits - Reduce Damage to 0.25% from 1%, make it ScaleSimple.
-SparkLevelPatchEntry,(1,2,0,MatchAll),/Game/PatchDLC/Raid1/Gear/Anointed/DataTable_Raid1_EndGame.DataTable_Raid1_EndGame,ConsecutiveDmgStack,Damage_7_39142BF947B2CBE02701DBA97A4D507F,0,,1.0025
+# Consecutive Hits - Reduce Damage to 0.25% from 1%, make it ScaleSimple. (Reverted)
+SparkLevelPatchEntry,(1,2,0,MatchAll),/Game/PatchDLC/Raid1/Gear/Anointed/DataTable_Raid1_EndGame.DataTable_Raid1_EndGame,ConsecutiveDmgStack,Damage_7_39142BF947B2CBE02701DBA97A4D507F,0,,1.01
 SparkLevelPatchEntry,(1,1,0,MatchAll),/Game/PatchDLC/Raid1/Gear/Anointed/Generic/ConsecutiveHits_DmgStack/UIStat_EG_Generic_ConsecutiveHitsDmgStack.UIStat_EG_Generic_ConsecutiveHitsDmgStack,FormatText,0,,[endgame][endgamebold]Consecutive Hits[/endgamebold] increase Weapon Damage by 0.25% per hit, misses remove all bonuses.[/endgame]
 SparkLevelPatchEntry,(1,1,0,MatchAll),/Game/PatchDLC/Raid1/Gear/Anointed/Generic/ConsecutiveHits_DmgStack/StatusEffect_Generic_ConsecutiveHitsDmgStack.StatusEffect_Generic_ConsecutiveHitsDmgStack,AttributeEffects.AttributeEffects[0].ModifierType,0,,ScaleSimple
 
